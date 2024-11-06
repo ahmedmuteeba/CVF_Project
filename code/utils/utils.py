@@ -78,7 +78,7 @@ def plotImageDistribution(data1, data2, dataset_names, classes_names, show=False
         print(f"Art Dataset: {len(data2)}")
         print()
         print("Element per class for each domain:")
-        for name, count in zip(dataset_names, [counts1, counts2, counts3, counts4]):
+        for name, count in zip(dataset_names, [counts1, counts2]):
             print(f"{name}_dataset: {count}")
 
     fig, ax = plt.subplots(figsize=(10, 7))
